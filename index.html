@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Элит-Стиль — парикмахерская: детские стрижки без очереди</title>
+<meta name="description" content="Парикмахерская «Элит-Стиль»: детские, женские и мужские стрижки, окрашивание, кератиновое выпрямление, причёски. Запись онлайн, без очереди. Тел. +7 (3012) 444-995.">
+<style>
+:root{--bg:#120f1a;--surface:#1c1727;--text:#f3eff9;--muted:#a79fb8;--accent:#9b5de5;--accent2:#b583f2;--line:#2d2640;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;line-height:1.55}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:rgba(18,15,26,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 20px}
+.logo{font-weight:700;letter-spacing:.04em;font-size:1.15rem}
+.logo span{color:var(--accent2)}
+.phone{color:var(--text);text-decoration:none;font-weight:600;white-space:nowrap}
+.wrap{max-width:900px;margin:0 auto;padding:0 20px}
+.hero{text-align:center;padding:72px 0 84px}
+h1{font-size:clamp(2.1rem,7vw,3.6rem);line-height:1.1;margin:0 0 18px;letter-spacing:-.02em}
+.hero p{color:var(--muted);font-size:1.1rem;max-width:520px;margin:0 auto 32px}
+.btn{display:inline-block;background:linear-gradient(135deg,#8a3ff0,#b583f2);color:#fff;border:0;padding:18px 40px;border-radius:999px;font:700 1.15rem system-ui,sans-serif;text-decoration:none;cursor:pointer;box-shadow:0 0 0 4px rgba(155,93,229,.25),0 10px 30px rgba(155,93,229,.55);transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 0 0 6px rgba(155,93,229,.3),0 14px 36px rgba(155,93,229,.7)}
+form .btn{width:100%;padding:20px;font-size:1.25rem}
+.row{cursor:pointer;transition:border-color .15s,transform .15s}
+.row:hover,.row:focus-visible{border-color:var(--accent);transform:translateX(4px);outline:none}
+.row .price:not(.ask)::after,.row .price.ask::after{content:" \2192";color:var(--accent2)}
+.rating{text-align:center;margin:-12px 0 28px;color:var(--muted)}
+.rating a{color:var(--text);text-decoration:none;border-bottom:1px solid var(--accent)}
+.stars{color:#ffc247;letter-spacing:2px}
+.reviews{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
+.review{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px}
+.review p{margin:10px 0 14px}
+.review b{color:var(--accent2)}
+section{padding:56px 0}
+h2{font-size:clamp(1.6rem,5vw,2.2rem);margin:0 0 28px;text-align:center}
+.list{display:grid;gap:10px}
+.row{display:flex;justify-content:space-between;align-items:baseline;gap:16px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 20px}
+.price{color:var(--accent2);font-weight:600;white-space:nowrap;font-size:.95rem}
+.price.ask{color:var(--muted);font-weight:400}
+.masters{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:24px;text-align:center}
+.ava{width:72px;height:72px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--accent2));margin:0 auto 14px;display:grid;place-items:center;font-size:1.6rem;font-weight:700}
+.card h3{margin:0 0 4px}
+.card p{margin:0;color:var(--muted);font-size:.95rem}
+form{max-width:460px;margin:0 auto;display:grid;gap:14px}
+label{display:grid;gap:6px;font-size:.95rem;color:var(--muted)}
+input,select{width:100%;padding:14px 16px;border-radius:12px;border:1px solid var(--line);background:var(--surface);color:var(--text);font:1rem system-ui,sans-serif}
+input:focus,select:focus{outline:2px solid var(--accent);border-color:transparent}
+#ok{display:none;text-align:center;color:var(--accent2);font-weight:600}
+footer{border-top:1px solid var(--line);padding:36px 0;text-align:center;color:var(--muted)}
+footer strong{color:var(--text)}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">ЭЛИТ<span>-СТИЛЬ</span></div>
+<a class="phone" href="tel:+73012444995">+7 (3012) 444‒995</a>
+</header>
+<main>
+<div class="wrap hero">
+<h1>Детские стрижки без очереди</h1>
+<p>Аккуратно, быстро и с заботой о малыше. Выберите время онлайн и приходите без ожидания.</p>
+<a class="btn" href="#booking">Записаться онлайн!</a>
+</div>
+<section id="services"><div class="wrap">
+<h2>Услуги и цены</h2>
+<div class="list">
+<div class="row"><span>Женская стрижка</span><span class="price">от 350 ₽</span></div>
+<div class="row"><span>Мужская стрижка</span><span class="price">от 350 ₽</span></div>
+<div class="row"><span>Детская стрижка</span><span class="price ask">уточняйте</span></div>
+<div class="row"><span>Стрижка бороды</span><span class="price ask">уточняйте</span></div>
+<div class="row"><span>Кератиновое выпрямление</span><span class="price ask">уточняйте</span></div>
+<div class="row"><span>Женская химзавивка</span><span class="price ask">уточняйте</span></div>
+<div class="row"><span>Мужская химзавивка</span><span class="price ask">уточняйте</span></div>
+<div class="row"><span>Плетение кос</span><span class="price ask">уточняйте</span></div>
+<div class="row"><span>Сложное окрашивание</span><span class="price ask">уточняйте</span></div>
+<div class="row"><span>Свадебные и вечерние причёски</span><span class="price ask">уточняйте</span></div>
+<div class="row"><span>Прикорневой объём волос</span><span class="price ask">уточняйте</span></div>
+</div></div></section>
+<section id="masters"><div class="wrap">
+<h2>Наши мастера</h2>
+<div class="masters">
+<div class="card"><div class="ava">Л</div><h3>Людмила</h3><p>Парикмахер-стилист</p></div>
+<div class="card"><div class="ava">Т</div><h3>Татьяна</h3><p>Парикмахер-стилист</p></div>
+</div></div></section>
+<section id="reviews"><div class="wrap">
+<h2>Отзывы клиентов</h2>
+<p class="rating"><span class="stars">★★★★★</span> <b style="color:var(--text)">4,8</b> на <a href="https://2gis.ru/ulanude/geo/5207922724312309" target="_blank" rel="noopener">2ГИС</a></p>
+<div class="reviews">
+<div class="review"><span class="stars">★★★★★</span><p>Часто хожу к мастеру Елене, стрижёт замечательно, персонал вежливый, хорошая парикмахерская.</p><b>Сергей Аллавердов</b></div>
+<div class="review"><span class="stars">★★★★★</span><p>Эта парикмахерская — моя любимая, и я остаюсь верна ей с самых студенческих лет. Мастера здесь — не просто специалисты, а настоящие волшебники: они всегда чутко прислушиваются к пожеланиям, окружают заботой и создают по-настоящему уютную атмосферу. Я всегда выхожу из салона не только с прекрасной стрижкой, но и с отличным настроением.</p><b>Кристина Арарбетова</b></div>
+<div class="review"><span class="stars">★★★★★</span><p>Хожу в эту парикмахерскую более 10 лет, всей семьёй подстригаемся. Мастера хорошие, цены на причёски нормальные.</p><b>Эдуард Андреев</b></div>
+</div></div></section>
+<section id="booking"><div class="wrap">
+<h2>Запись онлайн</h2>
+<form id="f">
+<label>Имя<input name="name" required autocomplete="name" placeholder="Как к вам обращаться"></label>
+<label>Телефон<input name="phone" type="tel" required autocomplete="tel" placeholder="+7 (___) ___-__-__"></label>
+<label>Мастер<select name="master"><option>Любой свободный</option><option>Людмила</option><option>Татьяна</option></select></label>
+<button class="btn" type="submit">Записаться</button>
+<div id="ok">Спасибо! Мы скоро перезвоним и подтвердим запись.</div>
+</form>
+</div></section>
+</main>
+<footer><div class="wrap">
+<p><strong>Элит-Стиль</strong></p>
+<p>Адрес: г. Улан-Удэ, Железнодорожный район, <a class="phone" href="https://2gis.ru/ulanude/geo/5207922724312309" target="_blank" rel="noopener">ул. Пушкина, 19</a>, 1 этаж</p>
+<p>Пн — Вс, 08:00–20:00</p>
+<p><a class="phone" href="tel:+73012444995">+7 (3012) 444‒995</a></p>
+</div></footer>
+<script>
+document.getElementById('f').addEventListener('submit',function(e){e.preventDefault();this.querySelectorAll('input,select,button').forEach(function(x){x.disabled=true});document.getElementById('ok').style.display='block'});
+document.querySelectorAll('.row').forEach(function(r){r.setAttribute('role','link');r.setAttribute('tabindex','0');function go(){document.getElementById('booking').scrollIntoView({behavior:'smooth'})}r.addEventListener('click',go);r.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();go()}})});
+</script>
+</body>
+</html>
